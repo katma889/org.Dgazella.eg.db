@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    org.Dgazella.eg,
+    org.Dgazella.eg_dbconn,
+    org.Dgazella.eg_dbfile,
+    org.Dgazella.eg_dbschema,
+    org.Dgazella.eg_dbInfo,
+
+    org.Dgazella.egORGANISM
+)
+
